@@ -1,0 +1,10 @@
+# Each line starts with a keyword:
+# - TEXTURE <texture file>
+# - MESH <obj file> <skin file> <texture file>
+# - SKELETON <skeleton file>
+# Alpha blending is used to render the mouth, eyes, and brows. Since the brows mesh covers the eyes mesh,
+# the brows mesh should be rendered after the eyes mesh.
+# Lines for textures in automatically generated input file could be wrong when there are multiple textures, please modify them manually.
+TEXTURE Silly_Dancing_Guard_02__diffuse.png
+MESH Silly_Dancing_Guard02.obj Silly_Dancing_Guard02_skin.txt Silly_Dancing_Guard_02__diffuse.png 
+SKELETON Silly_Dancing_skel.txt
